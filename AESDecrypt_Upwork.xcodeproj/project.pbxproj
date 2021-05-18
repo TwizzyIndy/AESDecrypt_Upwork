@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65E31B62653D481007BF9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31B52653D481007BF9D9 /* AppDelegate.swift */; };
+		B65E31B82653D481007BF9D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31B72653D481007BF9D9 /* ViewController.swift */; };
+		B65E31BA2653D481007BF9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65E31B92653D481007BF9D9 /* Assets.xcassets */; };
+		B65E31BD2653D481007BF9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65E31BB2653D481007BF9D9 /* Main.storyboard */; };
+		B65E31C92653D481007BF9D9 /* AESDecrypt_UpworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31C82653D481007BF9D9 /* AESDecrypt_UpworkTests.swift */; };
+		B65E31D42653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31D32653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65E31C52653D481007BF9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65E31AA2653D480007BF9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65E31B12653D481007BF9D9;
+			remoteInfo = AESDecrypt_Upwork;
+		};
+		B65E31D02653D481007BF9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65E31AA2653D480007BF9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65E31B12653D481007BF9D9;
+			remoteInfo = AESDecrypt_Upwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B65E31B22653D481007BF9D9 /* AESDecrypt_Upwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESDecrypt_Upwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65E31B52653D481007BF9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B65E31B72653D481007BF9D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B65E31B92653D481007BF9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65E31BC2653D481007BF9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65E31BE2653D481007BF9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65E31BF2653D481007BF9D9 /* AESDecrypt_Upwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AESDecrypt_Upwork.entitlements; sourceTree = "<group>"; };
+		B65E31C42653D481007BF9D9 /* AESDecrypt_UpworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDecrypt_UpworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65E31C82653D481007BF9D9 /* AESDecrypt_UpworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecrypt_UpworkTests.swift; sourceTree = "<group>"; };
+		B65E31CA2653D481007BF9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65E31CF2653D481007BF9D9 /* AESDecrypt_UpworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDecrypt_UpworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65E31D32653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecrypt_UpworkUITests.swift; sourceTree = "<group>"; };
+		B65E31D52653D481007BF9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65E31AF2653D481007BF9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31C12653D481007BF9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31CC2653D481007BF9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65E31A92653D480007BF9D9 = {
+			isa = PBXGroup;
+			children = (
+				B65E31B42653D481007BF9D9 /* AESDecrypt_Upwork */,
+				B65E31C72653D481007BF9D9 /* AESDecrypt_UpworkTests */,
+				B65E31D22653D481007BF9D9 /* AESDecrypt_UpworkUITests */,
+				B65E31B32653D481007BF9D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65E31B32653D481007BF9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65E31B22653D481007BF9D9 /* AESDecrypt_Upwork.app */,
+				B65E31C42653D481007BF9D9 /* AESDecrypt_UpworkTests.xctest */,
+				B65E31CF2653D481007BF9D9 /* AESDecrypt_UpworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65E31B42653D481007BF9D9 /* AESDecrypt_Upwork */ = {
+			isa = PBXGroup;
+			children = (
+				B65E31B52653D481007BF9D9 /* AppDelegate.swift */,
+				B65E31B72653D481007BF9D9 /* ViewController.swift */,
+				B65E31B92653D481007BF9D9 /* Assets.xcassets */,
+				B65E31BB2653D481007BF9D9 /* Main.storyboard */,
+				B65E31BE2653D481007BF9D9 /* Info.plist */,
+				B65E31BF2653D481007BF9D9 /* AESDecrypt_Upwork.entitlements */,
+			);
+			path = AESDecrypt_Upwork;
+			sourceTree = "<group>";
+		};
+		B65E31C72653D481007BF9D9 /* AESDecrypt_UpworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65E31C82653D481007BF9D9 /* AESDecrypt_UpworkTests.swift */,
+				B65E31CA2653D481007BF9D9 /* Info.plist */,
+			);
+			path = AESDecrypt_UpworkTests;
+			sourceTree = "<group>";
+		};
+		B65E31D22653D481007BF9D9 /* AESDecrypt_UpworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B65E31D32653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift */,
+				B65E31D52653D481007BF9D9 /* Info.plist */,
+			);
+			path = AESDecrypt_UpworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65E31B12653D481007BF9D9 /* AESDecrypt_Upwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65E31D82653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_Upwork" */;
+			buildPhases = (
+				B65E31AE2653D481007BF9D9 /* Sources */,
+				B65E31AF2653D481007BF9D9 /* Frameworks */,
+				B65E31B02653D481007BF9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESDecrypt_Upwork;
+			productName = AESDecrypt_Upwork;
+			productReference = B65E31B22653D481007BF9D9 /* AESDecrypt_Upwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B65E31C32653D481007BF9D9 /* AESDecrypt_UpworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65E31DB2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkTests" */;
+			buildPhases = (
+				B65E31C02653D481007BF9D9 /* Sources */,
+				B65E31C12653D481007BF9D9 /* Frameworks */,
+				B65E31C22653D481007BF9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65E31C62653D481007BF9D9 /* PBXTargetDependency */,
+			);
+			name = AESDecrypt_UpworkTests;
+			productName = AESDecrypt_UpworkTests;
+			productReference = B65E31C42653D481007BF9D9 /* AESDecrypt_UpworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B65E31CE2653D481007BF9D9 /* AESDecrypt_UpworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65E31DE2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkUITests" */;
+			buildPhases = (
+				B65E31CB2653D481007BF9D9 /* Sources */,
+				B65E31CC2653D481007BF9D9 /* Frameworks */,
+				B65E31CD2653D481007BF9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65E31D12653D481007BF9D9 /* PBXTargetDependency */,
+			);
+			name = AESDecrypt_UpworkUITests;
+			productName = AESDecrypt_UpworkUITests;
+			productReference = B65E31CF2653D481007BF9D9 /* AESDecrypt_UpworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65E31AA2653D480007BF9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B65E31B12653D481007BF9D9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B65E31C32653D481007BF9D9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B65E31B12653D481007BF9D9;
+					};
+					B65E31CE2653D481007BF9D9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B65E31B12653D481007BF9D9;
+					};
+				};
+			};
+			buildConfigurationList = B65E31AD2653D480007BF9D9 /* Build configuration list for PBXProject "AESDecrypt_Upwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65E31A92653D480007BF9D9;
+			productRefGroup = B65E31B32653D481007BF9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65E31B12653D481007BF9D9 /* AESDecrypt_Upwork */,
+				B65E31C32653D481007BF9D9 /* AESDecrypt_UpworkTests */,
+				B65E31CE2653D481007BF9D9 /* AESDecrypt_UpworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65E31B02653D481007BF9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65E31BA2653D481007BF9D9 /* Assets.xcassets in Resources */,
+				B65E31BD2653D481007BF9D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31C22653D481007BF9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31CD2653D481007BF9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65E31AE2653D481007BF9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65E31B82653D481007BF9D9 /* ViewController.swift in Sources */,
+				B65E31B62653D481007BF9D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31C02653D481007BF9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65E31C92653D481007BF9D9 /* AESDecrypt_UpworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E31CB2653D481007BF9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65E31D42653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65E31C62653D481007BF9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65E31B12653D481007BF9D9 /* AESDecrypt_Upwork */;
+			targetProxy = B65E31C52653D481007BF9D9 /* PBXContainerItemProxy */;
+		};
+		B65E31D12653D481007BF9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65E31B12653D481007BF9D9 /* AESDecrypt_Upwork */;
+			targetProxy = B65E31D02653D481007BF9D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65E31BB2653D481007BF9D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65E31BC2653D481007BF9D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65E31D62653D481007BF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65E31D72653D481007BF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B65E31D92653D481007BF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AESDecrypt_Upwork/AESDecrypt_Upwork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AESDecrypt_Upwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-Upwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B65E31DA2653D481007BF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AESDecrypt_Upwork/AESDecrypt_Upwork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AESDecrypt_Upwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-Upwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B65E31DC2653D481007BF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				INFOPLIST_FILE = AESDecrypt_UpworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-UpworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESDecrypt_Upwork.app/Contents/MacOS/AESDecrypt_Upwork";
+			};
+			name = Debug;
+		};
+		B65E31DD2653D481007BF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				INFOPLIST_FILE = AESDecrypt_UpworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-UpworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESDecrypt_Upwork.app/Contents/MacOS/AESDecrypt_Upwork";
+			};
+			name = Release;
+		};
+		B65E31DF2653D481007BF9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				INFOPLIST_FILE = AESDecrypt_UpworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-UpworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AESDecrypt_Upwork;
+			};
+			name = Debug;
+		};
+		B65E31E02653D481007BF9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FZK75W47G4;
+				INFOPLIST_FILE = AESDecrypt_UpworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twizzyindy.AESDecrypt-UpworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AESDecrypt_Upwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65E31AD2653D480007BF9D9 /* Build configuration list for PBXProject "AESDecrypt_Upwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65E31D62653D481007BF9D9 /* Debug */,
+				B65E31D72653D481007BF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65E31D82653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_Upwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65E31D92653D481007BF9D9 /* Debug */,
+				B65E31DA2653D481007BF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65E31DB2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65E31DC2653D481007BF9D9 /* Debug */,
+				B65E31DD2653D481007BF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65E31DE2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65E31DF2653D481007BF9D9 /* Debug */,
+				B65E31E02653D481007BF9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65E31AA2653D480007BF9D9 /* Project object */;
+}
