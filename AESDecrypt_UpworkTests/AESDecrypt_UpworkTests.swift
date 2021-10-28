@@ -8,6 +8,7 @@
 import XCTest
 @testable import AESDecrypt_Upwork
 
+
 class AESDecrypt_UpworkTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -21,6 +22,9 @@ class AESDecrypt_UpworkTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let string = EncryptionUtil.decrypt(b64_text: "BwCmmTBfWfL1r90qGLVBqICENh13QyI7Mks1ToNMGoY=")
+        XCTAssertEqual(string, "myLife")
     }
 
     func testPerformanceExample() throws {

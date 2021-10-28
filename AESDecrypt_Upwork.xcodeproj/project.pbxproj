@@ -3,16 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		749ECDACCE9A79EDBB71C177 /* Pods_AESDecrypt_Upwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA141448D987E3EA874A9633 /* Pods_AESDecrypt_Upwork.framework */; };
 		B65E31B62653D481007BF9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31B52653D481007BF9D9 /* AppDelegate.swift */; };
 		B65E31B82653D481007BF9D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31B72653D481007BF9D9 /* ViewController.swift */; };
 		B65E31BA2653D481007BF9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65E31B92653D481007BF9D9 /* Assets.xcassets */; };
 		B65E31BD2653D481007BF9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65E31BB2653D481007BF9D9 /* Main.storyboard */; };
 		B65E31C92653D481007BF9D9 /* AESDecrypt_UpworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31C82653D481007BF9D9 /* AESDecrypt_UpworkTests.swift */; };
 		B65E31D42653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65E31D32653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift */; };
+		B67EDE102653D6AD00A4D30D /* EncryptUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67EDE0F2653D6AD00A4D30D /* EncryptUtil.swift */; };
+		D0A70D16BAC4F21A5AA984A4 /* Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE96A63EC7D9CE171C4893E /* Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework */; };
+		D3F3299BFEC9EB439C8ABE16 /* Pods_AESDecrypt_UpworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E795A1E250E0ACE119FB614C /* Pods_AESDecrypt_UpworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DE35BE10A89F1366750A136 /* Pods-AESDecrypt_Upwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_Upwork.release.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_Upwork/Pods-AESDecrypt_Upwork.release.xcconfig"; sourceTree = "<group>"; };
+		79C4CB1FD204ABF279188A7E /* Pods-AESDecrypt_UpworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_UpworkTests.release.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_UpworkTests/Pods-AESDecrypt_UpworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		940A649C9E1329AA0EEAEA50 /* Pods-AESDecrypt_Upwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_Upwork.debug.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_Upwork/Pods-AESDecrypt_Upwork.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC0C2E711034A182F613EA7 /* Pods-AESDecrypt_UpworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_UpworkTests.debug.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_UpworkTests/Pods-AESDecrypt_UpworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA114A4955E135E8E4BD432 /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B65E31B22653D481007BF9D9 /* AESDecrypt_Upwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESDecrypt_Upwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65E31B52653D481007BF9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B65E31B72653D481007BF9D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,11 @@
 		B65E31CF2653D481007BF9D9 /* AESDecrypt_UpworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDecrypt_UpworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65E31D32653D481007BF9D9 /* AESDecrypt_UpworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESDecrypt_UpworkUITests.swift; sourceTree = "<group>"; };
 		B65E31D52653D481007BF9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67EDE0F2653D6AD00A4D30D /* EncryptUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptUtil.swift; sourceTree = "<group>"; };
+		DCE96A63EC7D9CE171C4893E /* Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E795A1E250E0ACE119FB614C /* Pods_AESDecrypt_UpworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AESDecrypt_UpworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA141448D987E3EA874A9633 /* Pods_AESDecrypt_Upwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AESDecrypt_Upwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED11CC06A2043046B810D5E /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.release.xcconfig"; path = "Target Support Files/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749ECDACCE9A79EDBB71C177 /* Pods_AESDecrypt_Upwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F3299BFEC9EB439C8ABE16 /* Pods_AESDecrypt_UpworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A70D16BAC4F21A5AA984A4 /* Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69E093EFA67CBED17E367078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				940A649C9E1329AA0EEAEA50 /* Pods-AESDecrypt_Upwork.debug.xcconfig */,
+				6DE35BE10A89F1366750A136 /* Pods-AESDecrypt_Upwork.release.xcconfig */,
+				AAA114A4955E135E8E4BD432 /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.debug.xcconfig */,
+				EED11CC06A2043046B810D5E /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.release.xcconfig */,
+				9BC0C2E711034A182F613EA7 /* Pods-AESDecrypt_UpworkTests.debug.xcconfig */,
+				79C4CB1FD204ABF279188A7E /* Pods-AESDecrypt_UpworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		947812ECF1F926045FB58913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA141448D987E3EA874A9633 /* Pods_AESDecrypt_Upwork.framework */,
+				DCE96A63EC7D9CE171C4893E /* Pods_AESDecrypt_Upwork_AESDecrypt_UpworkUITests.framework */,
+				E795A1E250E0ACE119FB614C /* Pods_AESDecrypt_UpworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B65E31A92653D480007BF9D9 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +120,8 @@
 				B65E31C72653D481007BF9D9 /* AESDecrypt_UpworkTests */,
 				B65E31D22653D481007BF9D9 /* AESDecrypt_UpworkUITests */,
 				B65E31B32653D481007BF9D9 /* Products */,
+				69E093EFA67CBED17E367078 /* Pods */,
+				947812ECF1F926045FB58913 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +144,7 @@
 				B65E31BB2653D481007BF9D9 /* Main.storyboard */,
 				B65E31BE2653D481007BF9D9 /* Info.plist */,
 				B65E31BF2653D481007BF9D9 /* AESDecrypt_Upwork.entitlements */,
+				B67EDE0F2653D6AD00A4D30D /* EncryptUtil.swift */,
 			);
 			path = AESDecrypt_Upwork;
 			sourceTree = "<group>";
@@ -131,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65E31D82653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_Upwork" */;
 			buildPhases = (
+				0046CB529CE90AA2B2E25527 /* [CP] Check Pods Manifest.lock */,
 				B65E31AE2653D481007BF9D9 /* Sources */,
 				B65E31AF2653D481007BF9D9 /* Frameworks */,
 				B65E31B02653D481007BF9D9 /* Resources */,
+				635FB74159B2E5168A555483 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65E31DB2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkTests" */;
 			buildPhases = (
+				C7C4C54EAB58402B219912B1 /* [CP] Check Pods Manifest.lock */,
 				B65E31C02653D481007BF9D9 /* Sources */,
 				B65E31C12653D481007BF9D9 /* Frameworks */,
 				B65E31C22653D481007BF9D9 /* Resources */,
+				63AF8EE682B87121C5CC4B0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65E31DE2653D481007BF9D9 /* Build configuration list for PBXNativeTarget "AESDecrypt_UpworkUITests" */;
 			buildPhases = (
+				1BC27F91EAFBEAA22ACCB60C /* [CP] Check Pods Manifest.lock */,
 				B65E31CB2653D481007BF9D9 /* Sources */,
 				B65E31CC2653D481007BF9D9 /* Frameworks */,
 				B65E31CD2653D481007BF9D9 /* Resources */,
+				A75873D070CA8C58C3B5F607 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,11 +297,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0046CB529CE90AA2B2E25527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESDecrypt_Upwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BC27F91EAFBEAA22ACCB60C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635FB74159B2E5168A555483 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork/Pods-AESDecrypt_Upwork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork/Pods-AESDecrypt_Upwork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork/Pods-AESDecrypt_Upwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AF8EE682B87121C5CC4B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_UpworkTests/Pods-AESDecrypt_UpworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_UpworkTests/Pods-AESDecrypt_UpworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_UpworkTests/Pods-AESDecrypt_UpworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75873D070CA8C58C3B5F607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests/Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C4C54EAB58402B219912B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESDecrypt_UpworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B65E31AE2653D481007BF9D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67EDE102653D6AD00A4D30D /* EncryptUtil.swift in Sources */,
 				B65E31B82653D481007BF9D9 /* ViewController.swift in Sources */,
 				B65E31B62653D481007BF9D9 /* AppDelegate.swift in Sources */,
 			);
@@ -418,6 +588,7 @@
 		};
 		B65E31D92653D481007BF9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940A649C9E1329AA0EEAEA50 /* Pods-AESDecrypt_Upwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +610,7 @@
 		};
 		B65E31DA2653D481007BF9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE35BE10A89F1366750A136 /* Pods-AESDecrypt_Upwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +632,7 @@
 		};
 		B65E31DC2653D481007BF9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC0C2E711034A182F613EA7 /* Pods-AESDecrypt_UpworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +655,7 @@
 		};
 		B65E31DD2653D481007BF9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C4CB1FD204ABF279188A7E /* Pods-AESDecrypt_UpworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +678,7 @@
 		};
 		B65E31DF2653D481007BF9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA114A4955E135E8E4BD432 /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +699,7 @@
 		};
 		B65E31E02653D481007BF9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED11CC06A2043046B810D5E /* Pods-AESDecrypt_Upwork-AESDecrypt_UpworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
